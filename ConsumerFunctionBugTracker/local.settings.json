@@ -3,6 +3,6 @@
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
-    "AzureWebJobsServiceBus": "Endpoint=sb://azureconference2.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=KM7hbtBXFhqlyLXdHG0kW0//djhxVZj48KQaEWDW0tI="
+    "AzureWebJobsServiceBus": ""
   }
 }
