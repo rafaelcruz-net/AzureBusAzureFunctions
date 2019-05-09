@@ -12,9 +12,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>    
-    <PackageReference Include="dapper" Version="1.50.4" />    
-    <PackageReference Include="Microsoft.Azure.WebJobs.ServiceBus" Version="2.1.0-beta1" />    
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.2" />
+    <PackageReference Include="dapper" Version="1.60.6" />    
+    <PackageReference Include="Microsoft.Azure.WebJobs.ServiceBus" Version="2.3.0" />    
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.27" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
