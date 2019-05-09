@@ -12,7 +12,7 @@ namespace BugTrackerWeb.Controllers
 {
     public class BugController : Controller
     {
-        const string ConnectionString = "Server=tcp:thedevconfserver.database.windows.net,1433;Initial Catalog=thedevconfdb;Persist Security Info=False;User ID=samples;Password=123456#A;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        const string ConnectionString = "Server=tcp:azurecomunidade.database.windows.net,1433;Initial Catalog=azure-coumunidade;Persist Security Info=False;User ID=azure-comunidade;Password=123456#A;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         public IActionResult List()
         {

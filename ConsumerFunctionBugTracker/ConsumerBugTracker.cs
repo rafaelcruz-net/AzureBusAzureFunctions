@@ -12,7 +12,7 @@ namespace ConsumerFunctionBugTracker
 {
     public static class ConsumerBugTracker
     {
-        const string ConnectionString = "Server=tcp:<servername>.database.windows.net;Initial Catalog=thedevconfdb;Persist Security Info=False;User ID=<username>;Password=<password>;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        const string ConnectionString = "Server=tcp:azurecomunidade.database.windows.net,1433;Initial Catalog=azure-coumunidade;Persist Security Info=False;User ID=azure-comunidade;Password=123456#A;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
         [FunctionName("ConsumerBugTracker")]
         public static void Run([ServiceBusTrigger("<queuename>", AccessRights.Manage)]BrokeredMessage message, TraceWriter log)
